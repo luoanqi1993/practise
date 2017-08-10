@@ -1,0 +1,10 @@
+$bg:pink;
+.box{
+  background-color: $bg;
+  width: 100px;
+  height: 100px;
+  @include mt;
+}
+@mixin mt{
+  margin-top: 100px;
+}

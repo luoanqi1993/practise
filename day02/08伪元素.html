@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!-- 为什么要加伪元素
+        因为这个div是假的，所有添加伪元素
+    -->
+    <style>
+        div:before{
+            content: "我是前面";
+            display: table;
+        }
+        div:after{
+            content: "我是后面";
+            display: table;
+        }
+    </style>
+</head>
+<body>
+<div>
+    hello world
+</div>
+</body>
+</html>

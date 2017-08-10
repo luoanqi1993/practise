@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!-- id选择器不能重名-->
+    <style>
+        p.one{color: blue;}
+        p#two{color: pink;}
+        p#three{color: sandybrown}
+        p:hover{color: aqua;}
+        p#two:hover{color:yellow }
+        p#three:hover{color:seagreen }
+    </style>
+</head>
+<body>
+    <p>hello</p>
+    <p class="one">hello</p>
+    <p class="one" id="two">hello</p>
+    <p class="one" id="three">hello</p>
+    <p>hello</p>
+    <p>hello</p>
+</body>
+</html>
